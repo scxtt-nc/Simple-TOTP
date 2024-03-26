@@ -3,11 +3,11 @@ import time
 import os
 import tkinter as tk
 
-totp = pyotp.TOTP("")
+totp = pyotp.TOTP("secret key")
 
 def check_password():
     password = password_entry.get()
-    if password == "":
+    if password == "password here":
         def update_totp():
             current_totp = totp.now()
             totp_label.config(text="Current TOTP: \n" + current_totp)  # Update the label with current TOTP
