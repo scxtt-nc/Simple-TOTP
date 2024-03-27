@@ -14,7 +14,7 @@ def check_password():
             password_label.pack_forget()  # Hide the password label
             password_entry.pack_forget()  # Hide the password entry
             submit_button.pack_forget()
-            window.after(30000, update_totp)  # Schedule the next update after 30 seconds
+            window.after(1000, update_totp)  # Schedule the next update after 1 seconds
 
         update_totp()  # Start the initial update
         access_label.config(text="")  # Clear the access label
