@@ -21,7 +21,7 @@ screen_height = 128
 window.geometry(f"{screen_width}x{screen_height}")
 
 # Create TOTP label
-totp_label = tk.Label(window, text="", font=("Segoe UI", 20))
+totp_label = tk.Label(window, text="", font=("Segoe UI", 20), justify="center")
 totp_label.pack()
 
 # Start the initial update
