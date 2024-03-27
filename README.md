@@ -1,12 +1,19 @@
-# Simple-TOTP
+# Simple TOTP Standalone
 
 This repository contains the code for a simple Time-based One-Time Password (TOTP) generator.
 
 ## Usage
 
+### Terminal mode
+
 1. Install the required dependencies by running `pip install pyotp`.
-2. Add secret and password in `secret key` `password here`
-3. Run the `main.py` script to generate a TOTP.
+2. Run the `main.py` script to generate a TOTP.
+
+### Executable mode
+
+1. Download executable from [Release](https://github.com/Byteintosh/Simple-TOTP/releases)
+2. Create secret.env
+3. Add secret key to `secret.env` like this `SECRET_KEY=XXXXXXXXXXXXXXXX`
 
 ## Build to exe
 
