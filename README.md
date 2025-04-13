@@ -4,7 +4,7 @@ This repository contains the code for a simple Time-based One-Time Password (TOT
 
 ## Usage
 
-1. Install the required dependencies by running `pip install pyotp`.
+1. Install the required dependencies by running `pip install -r requirements.txt`.
 2. Add secret and password in `secret key` `password here`
 3. Run the `main.py` script to generate a TOTP.
 
